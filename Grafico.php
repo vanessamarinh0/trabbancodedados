@@ -6,10 +6,8 @@
       google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawChart);
 
-      function drawChart() 
-
-
-        var data = google.visualization.arrayToDatsaTable([
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
           ['Nome', 'Endereço'],
           <?php
 
@@ -27,7 +25,8 @@
         ]);
 
         var options = {
-          title: 'Cliente'
+          title: 'Cliente',
+          legend: {position: 'right'}
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));{
@@ -40,4 +39,3 @@
     <div id="piechart" style="width: 900px; height: 500px;"></div>
   </body>
 </html>
-
