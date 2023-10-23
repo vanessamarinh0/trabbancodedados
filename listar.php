@@ -9,5 +9,5 @@
     $listarSQL7 = mysqli_query($conexao, "SELECT cod_produto FROM produto WHERE tipo_produto = 'Eletrônico'");
     $listarSQL8 = mysqli_query($conexao, "SELECT marca_produto FROM produto ");
     $listarSQL9 = mysqli_query($conexao, "SELECT DISTINCT nome_cliente FROM cliente ORDER BY (nome_cliente)");
-    $listarSQL10 = mysqli_query($conexao, "SELECT cod_compra FROM compra WHERE valaor_compra < 40.00");
+    $listarSQL10 = mysqli_query($conexao, "SELECT cod_compra FROM compra WHERE valaor_compra < 50.00");
 ?>
