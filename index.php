@@ -11,8 +11,7 @@
 background-repeat: no-repeat;
 background-position: center center;">
     <form method="post" action="salvar.php">
-    <div class="container" style="text-align: center; margin-left: 70px; margin-top: 100px; height: 420px; width: 550px; border: 2px solid black; border-radius: 10px;">
-     <br>
+    <div class="container" style="text-align: center; margin-left: 70px; margin-top: 50px; height: 340px; width: 550px; border: 2px solid black; border-radius: 10px;">
         <h1>CLIENTE</h1>
         <br>
         <div class="row">
@@ -34,8 +33,7 @@ background-position: center center;">
         </div>
         <br>
     </div>
-    <div class="container" style="text-align: center; margin-left: 70px; margin-top: 190px; height: 250px; width: 550px; border: 2px solid black; border-radius: 10px;">
-    <br>
+    <div class="container" style="text-align: center; margin-left: 70px; margin-top: 50px; height: 180px; width: 550px; border: 2px solid black; border-radius: 10px;">
         <h1>COMPRA</h1>
         <br>
         <div class="row">
@@ -45,8 +43,7 @@ background-position: center center;">
         </div>
         <br>
     </div>
-    <div class="container" style="text-align: center; margin-left: 7px; margin-top: 120px; height: 340px; width: 550px; border: 2px solid black; border-radius: 10px;">
-    <br>
+    <div class="container" style="text-align: center; margin-left: 70px; margin-top: 50px; height: 250px; width: 550px; border: 2px solid black; border-radius: 10px;">
         <h1>FUNCIONÁRIO</h1>
         <br>
         <div class="row">
@@ -62,8 +59,7 @@ background-position: center center;">
         </div>
         <br>
     </div>
-    <div class="container" style="text-align: center; margin-left: 70px; margin-top: 100px; height: 420px; width: 550px; border: 2px solid black; border-radius: 10px;">
-    <br>
+    <div class="container" style="text-align: center; margin-left: 70px; margin-top: 50px; height: 340px; width: 550px; border: 2px solid black; border-radius: 10px;">
         <h1>PRODUTO</h1>
         <br>
         <div class="row">
@@ -85,11 +81,12 @@ background-position: center center;">
         </div>
         <br>
     </div>
-    <div class="row">
-            <div class="text-center">
+
+    <div class="row" style="text-align: center; margin-left: 70px; margin-top: 10px; height: 50px; width: 550px;">
                 <button type="submit" class=" btn btn-primary">Salvar</button>
-            </div>
-        </div>
+                <br>
+                <br>
+    </div>
     </form>
 </body>
 </html>
