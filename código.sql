@@ -1,5 +1,5 @@
 CREATE TABLE cliente (
-    cod_cliente INT AUTO-INCREMENT PRIMARY KEY,
+    cod_cliente INT AUTO_INCREMENT PRIMARY KEY,
     cpf_cliente INT(16),
     endereco_cliente VARCHAR(100),
     nome_cliente VARCHAR(100)
@@ -7,12 +7,12 @@ CREATE TABLE cliente (
 
 CREATE TABLE compra (
     valaor_compra FLOAT,
-    cod_compra INT AUTO-INCREMENT PRIMARY KEY,
+    cod_compra INT AUTO_INCREMENT PRIMARY KEY,
     fk_cliente_cod_cliente INT
 );
 
 CREATE TABLE produto (
-    cod_produto INT AUTO-INCREMENT PRIMARY KEY,
+    cod_produto INT AUTO_INCREMENT PRIMARY KEY,
     tipo_produto VARCHAR(50),
     marca_produto VARCHAR(50),
     valor_produto FLOAT,
@@ -21,7 +21,7 @@ CREATE TABLE produto (
 );
 
 CREATE TABLE funcionario (
-    cod_funcionario INT(16) AUTO-INCREMENT PRIMARY KEY,
+    cod_funcionario INT(16) AUTO_INCREMENT PRIMARY KEY,
     nome_funcionario VARCHAR(100),
     turno_funcionario VARCHAR(50)
 );
