@@ -1,6 +1,6 @@
 <?php
 	include 'conexao.php';
-	$listarSQL = mysqli_query($conexao, "SELECT * FROM cliente");
+        $listarSQL = mysqli_query($conexao, "SELECT * FROM cliente");
     $listarSQL2 = mysqli_query($conexao, "SELECT * FROM compra");
     $listarSQL3 = mysqli_query($conexao, "SELECT * FROM funcionario");
     $listarSQL4 = mysqli_query($conexao, "SELECT * FROM produto");
