@@ -208,7 +208,7 @@ include 'conexao.php';
 	<br><br><br>
 	<div class="container col-md-6 offset-md-3">
 		<table  class="table  table-hover">
-        <h1>CÓDIGO DA COMPRA COM VALOR MENOR DE $40.00 REAIS</h1>
+        <h1>CÓDIGO DA COMPRA COM VALOR MENOR DE $50.00 REAIS</h1>
 			<thead>
 				<tr>
 					<th scope="col">Código</th>
